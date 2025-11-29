@@ -47,7 +47,17 @@ This project is built using **Streamlit**, **Python**, and **Scikit-learn**, and
 ---
 
 ## 📦 Installation (Local)
-
-```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+📁 Project Structure
+SupplyChainAI-WebApp/
+│── app.py
+│── requirements.txt
+│── README.md
+│── model.pkl / .joblib  (optional)
+│── dataset.csv          (optional)
+└── .streamlit/
+    └── config.toml      (optional)
+
+```bash
